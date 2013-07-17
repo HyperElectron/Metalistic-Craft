@@ -1,0 +1,22 @@
+package periodicraft;
+
+import net.minecraft.client.renderer.texture.IconRegister;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.*;
+
+public class AluminiumIngot extends Item{
+
+  public AluminiumIngot(int par1) {
+		super(par1);
+		
+		this.setMaxStackSize(64);
+		this.setCreativeTab(PeriodicraftMod.tabMetalistic);
+		this.setUnlocalizedName("aluminiumIngot");
+	}
+	
+        @Override
+        public void registerIcons (IconRegister reg){
+        	this.itemIcon = reg.registerIcon("periodicraft:aluminium_ingot");
+        
+}
+        }
