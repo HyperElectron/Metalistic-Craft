@@ -1,0 +1,19 @@
+package periodicraft;
+
+import net.minecraft.block.BlockOre;
+import net.minecraft.client.renderer.texture.IconRegister;
+
+public class GorgarilumOre extends BlockOre{
+
+  public GorgarilumOre(int par1) {
+		super(par1);
+		
+		this.setUnlocalizedName("gorgariliumOre");
+		this.setHardness(2.0f);
+		this.setCreativeTab(PeriodicraftMod.tabMetalistic);
+	}
+ @Override
+ public void registerIcons(IconRegister reg){
+	 this.blockIcon = reg.registerIcon("periodicraft:gorgarilium_ore");
+ }
+}
