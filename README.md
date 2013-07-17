@@ -1,4 +1,5 @@
 Metalistic-Craft
 ================
 
-I would love it if someone knew how to add tileEnitities and GUI's for blocks. If you know, please  leave a comment
+This is a W.I.P Mod that is going to have it's own power system 
+as well as some ways to get 4 times the Ingots out of an ore
